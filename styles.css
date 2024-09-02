@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #b22222; /* สีแดง */
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: white; /* สีขาว */
+}
+
+.navbar .nav-item {
+    text-align: center;
+}
+
+.navbar .nav-item a {
+    display: block;
+}
+
+.navbar .logo {
+    height: 60px; /* ปรับขนาดโลโก้ให้ใหญ่ขึ้น */
+    margin-right: 10px;
+}
+
+.hero {
+    background: url('header-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 60px 0;
+}
+
+.footer {
+    background: #b22222; /* สีแดง */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a.contact-link {
+    color: black; /* สีดำ */
+    text-decoration: none;
+}
+
+.contact-info a.contact-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
